@@ -78,6 +78,7 @@ MediaPlayer.OnErrorListener, MediaPlayer.OnBufferingUpdateListener {
 			mVideoView.setOnPreparedListener(this);
 			mVideoView.setOnErrorListener(this);
 			mVideoView.setVideoURI(videoUri);
+			mVideoView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_HIDE_NAVIGATION);
 			mMediaController = new MediaController(this);
 			mMediaController.setAnchorView(mVideoView);
 			mMediaController.setMediaPlayer(mVideoView);
