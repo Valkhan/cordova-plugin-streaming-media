@@ -31,7 +31,7 @@ MediaPlayer.OnErrorListener, MediaPlayer.OnBufferingUpdateListener {
 	private ProgressBar mProgressBar = null;
 	private String mVideoUrl;
 	private Boolean mShouldAutoClose = true;
-	private boolean mControls;
+	private Boolean mControls;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
